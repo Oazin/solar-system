@@ -9,6 +9,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SolarSystemComponent } from './solar-system/solar-system.component';
 import { UniversComponent } from './univers/univers.component';
 import { PageInConstructionComponent } from './page-in-construction/page-in-construction.component';
+import { MercuryPageComponent } from './mercury-page/mercury-page.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { PageInConstructionComponent } from './page-in-construction/page-in-cons
     NavBarComponent,
     SolarSystemComponent,
     UniversComponent,
-    PageInConstructionComponent
+    PageInConstructionComponent,
+    MercuryPageComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,

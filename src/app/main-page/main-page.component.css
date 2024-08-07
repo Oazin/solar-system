@@ -1,0 +1,14 @@
+.main-screen-container {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    height: 100%;
+  }
+  
+  .main-screen-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .global-container {
+    margin-top: 3vh;
+  }

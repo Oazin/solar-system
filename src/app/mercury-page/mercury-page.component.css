@@ -1,0 +1,84 @@
+.page-container {
+    margin: 5%; 
+    border: solid 1px #fffefe;
+    border-radius: 10px;
+    height: 80vh;
+    backdrop-filter: blur(2px);
+}
+
+h1{
+    color: #fffefe;
+    font-size: 2em;
+    margin-left: 2%;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.text-container {
+    margin-left: 2%;
+    padding: 0 1%;
+    border: solid 1px #fffefe;
+    border-radius: 10px;
+    width: 45%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    margin-right: 2%;
+    border: solid 1px #fffefe;
+    border-radius: 10px;
+    width: 45%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+.solar-system {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orbit {
+    position: absolute;
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: orbit 20s linear infinite;
+}
+
+.planet {
+    position: absolute;
+}
+
+.sun {
+    width: 277px;
+    height: auto;
+}
+
+.mercury {
+    width: 20px;
+    height: auto;
+    margin: 36% auto;
+}
+
+.mercury-orbit {
+    width: 600px;
+    height: 600px;
+}
+
+@keyframes orbit {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}

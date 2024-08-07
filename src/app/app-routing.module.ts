@@ -3,11 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { SolarSystemComponent } from './solar-system/solar-system.component';
 import { PageInConstructionComponent } from './page-in-construction/page-in-construction.component';
 import { MercuryPageComponent } from './mercury-page/mercury-page.component';
+import { SizePageComponent } from './size-page/size-page.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: SolarSystemComponent},
-  { path: 'size', component: PageInConstructionComponent},
+  { path: 'size', component: SizePageComponent},
   { path: 'mercury', component: MercuryPageComponent},
   { path: 'venus', component: PageInConstructionComponent},
   { path: 'earth', component: PageInConstructionComponent},

@@ -11,6 +11,7 @@ import { UniversComponent } from './univers/univers.component';
 import { PageInConstructionComponent } from './page-in-construction/page-in-construction.component';
 import { MercuryPageComponent } from './mercury-page/mercury-page.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { SizePageComponent } from './size-page/size-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MainPageComponent } from './main-page/main-page.component';
     UniversComponent,
     PageInConstructionComponent,
     MercuryPageComponent,
-    MainPageComponent
+    MainPageComponent,
+    SizePageComponent,
   ],
   imports: [
     BrowserModule,
